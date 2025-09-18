@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Miniver&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-name = font-family: "Miniver", cursive; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: inherit;
+}
+
+
+/* Header starts */
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: #3f181c;
+    position: sticky;
+
+}
+
+.head-section{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    background-color: #3f181c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo img{
+    height: 60px;
+    width: 60px;
+}
+
+.logo span{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    color: white;
+    gap: 5px;
+    font-weight: 500;
+}
+
+.nav-list li{
+    padding: 8px;
+}
+
+.nav-list li:hover{
+    background-color: goldenrod;
+    color: black;
+    border-radius: 30px;
+    padding: 8px;
+}
+
+
+/* Header ends */
+
