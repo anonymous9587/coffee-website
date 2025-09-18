@@ -23,6 +23,7 @@
     height: 70px;
     background-color: #3f181c;
     position: sticky;
+    top: 0px;
 
 }
 
@@ -47,12 +48,14 @@
 .logo img {
     height: 60px;
     width: 60px;
+    cursor: pointer;
 }
 
 .logo span {
     color: white;
     font-size: 30px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 
@@ -67,6 +70,7 @@
 
 .nav-list li {
     padding: 8px;
+    
 }
 
 .nav-list li:hover {
@@ -74,6 +78,7 @@
     color: black;
     border-radius: 30px;
     padding: 8px;
+    cursor: pointer;
 }
 
 
@@ -81,7 +86,7 @@
 
 /* Hero section starts */
 
-section {
+.home-section {
     width: 100%;
     height: 530px;
     background-color: #3f181c;
@@ -128,6 +133,7 @@ section {
     padding: 10px 30px;
     border-radius: 30px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .btn-grp button:nth-child(2){
@@ -138,6 +144,7 @@ section {
     color: white;
     font-weight: 600;
     margin-left:30px ;
+    cursor: pointer;
 }
 
 
@@ -169,3 +176,70 @@ section {
 
 
 /*Hero section ends*/
+
+
+/* About section starts */
+
+.about-section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-color: #f8edee;
+}
+
+.about-section-left{
+    height: 100%;
+    width: 48%;
+}
+
+.about-image{
+    height: 350px;
+    width: 350px;
+    margin: 30px 0px 0px 70px;
+    background: url(Images/images/about-image.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    background-position: top center;
+}
+
+.about-section-right{
+    height: 100%;
+    width: 48%;
+}
+
+.about-section-right h1{
+    margin: 50px 0px 0px 250px;
+    /* border-bottom: 5px solid rgb(191, 137, 2);s */
+    /* width:170px; */
+    font-size: 25px;
+}
+.underline{
+    margin: 5px 0px 0px 275px;
+    height: 4px;
+    width: 70px;
+    background-color: rgb(191, 137, 2);
+}
+
+.about-section-right p{
+    margin: 40px 0px 0px 0px;
+    text-align: center;
+    font-weight: 420;
+}
+
+.about-icons{
+    display: flex;
+    justify-content: center;
+    margin-top:30px ;
+    gap: 10px;
+    font-size: 25px;
+
+}
+
+.about-icons i:hover{
+    color: rgb(191, 137, 2);
+    cursor: pointer;
+}
+
+/*About section ends */
+
+
