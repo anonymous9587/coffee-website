@@ -70,11 +70,12 @@
 
 .nav-list li {
     padding: 8px;
-    
+
 }
 
 .nav-list li:hover {
-    background-color: rgb(191, 137, 2);;
+    background-color: rgb(191, 137, 2);
+    ;
     color: black;
     border-radius: 30px;
     padding: 8px;
@@ -92,18 +93,18 @@
     background-color: #3f181c;
 }
 
-.hero-section{
-    width:100%;
+.hero-section {
+    width: 100%;
     height: 100%;
     display: flex;
 }
 
-.hero-section-left{
+.hero-section-left {
     width: 49%;
 }
 
 
-.best-coffee{
+.best-coffee {
     margin: 130px 0px 0px 70px;
     font-family: "Miniver", cursive;
     color: rgb(191, 137, 2);
@@ -111,24 +112,24 @@
     font-weight: 700;
 }
 
-.spacial-coffee{
+.spacial-coffee {
     margin: 10px 0px 0px 70px;
     font-size: 35px;
     font-weight: 500;
     color: white;
 }
 
-.sparks{
+.sparks {
     margin: 20px 0px 0px 70px;
     /* font-size: 1px; */
     color: white;
 }
 
-.btn-grp{
+.btn-grp {
     margin: 30px 0px 0px 70px;
 }
 
-.btn-grp button:nth-child(1){
+.btn-grp button:nth-child(1) {
     background-color: rgb(191, 137, 2);
     padding: 10px 30px;
     border-radius: 30px;
@@ -136,37 +137,37 @@
     cursor: pointer;
 }
 
-.btn-grp button:nth-child(2){
+.btn-grp button:nth-child(2) {
     background-color: transparent;
     border: 2px solid white;
     padding: 8px 28px;
     border-radius: 30px;
     color: white;
     font-weight: 600;
-    margin-left:30px ;
+    margin-left: 30px;
     cursor: pointer;
 }
 
 
-.hero-section-right{
+.hero-section-right {
     width: 49%;
     height: 100%;
 }
 
-.hero-section-right img{
+.hero-section-right img {
     width: 80%;
     height: 80%;
     margin: 80px 0px 0px 50px;
 }
 
-.btn-grp button:nth-child(1):hover{
+.btn-grp button:nth-child(1):hover {
     background-color: transparent;
     border: 2px solid white;
     color: white;
     padding: 8px 28px;
 }
 
-.btn-grp button:nth-child(2):hover{
+.btn-grp button:nth-child(2):hover {
     background-color: rgb(191, 137, 2);
     color: black;
     padding: 10px 30px;
@@ -180,19 +181,19 @@
 
 /* About section starts */
 
-.about-section{
+.about-section {
     width: 100%;
     height: 500px;
     display: flex;
     background-color: #f8edee;
 }
 
-.about-section-left{
+.about-section-left {
     height: 100%;
     width: 48%;
 }
 
-.about-image{
+.about-image {
     height: 350px;
     width: 350px;
     margin: 30px 0px 0px 70px;
@@ -202,44 +203,114 @@
     background-position: top center;
 }
 
-.about-section-right{
+.about-section-right {
     height: 100%;
     width: 48%;
 }
 
-.about-section-right h1{
+.about-section-right h1 {
     margin: 50px 0px 0px 250px;
     /* border-bottom: 5px solid rgb(191, 137, 2);s */
     /* width:170px; */
     font-size: 25px;
 }
-.underline{
+
+.underline {
     margin: 5px 0px 0px 275px;
     height: 4px;
     width: 70px;
     background-color: rgb(191, 137, 2);
+    border-radius: 2px;
 }
 
-.about-section-right p{
+.about-section-right p {
     margin: 40px 0px 0px 0px;
     text-align: center;
     font-weight: 420;
 }
 
-.about-icons{
+.about-icons {
     display: flex;
     justify-content: center;
-    margin-top:30px ;
+    margin-top: 30px;
     gap: 10px;
     font-size: 25px;
 
 }
 
-.about-icons i:hover{
+.about-icons i:hover {
     color: rgb(191, 137, 2);
     cursor: pointer;
 }
 
 /*About section ends */
 
+/*Menu section starts*/
 
+.menu-section {
+    width: 100%;
+    height: 600px;
+    background-color: #252525;
+}
+
+.menu-section h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.underline-menu {
+    margin: 0px 0px 0px 590px;
+    background-color: rgb(191, 137, 2);
+    height: 4px;
+    border-radius: 2px;
+    width: 90px;
+    ;
+}
+
+.food-menu {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-item1{
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
+
+
+.menu-item1 img{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    
+}
+
+.menu-item1 h6{
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    position: absolute;
+    top: 370px;
+    left: 110px;
+    text-align: center;
+}
+
+.menu-item1 p{
+    color: white;
+    position: absolute;
+    top: 410px;
+    left: 60px;
+    text-align: center;
+    font-size: 14px;
+    width: 70%;
+}
+
+
+/*Menu section ends*/
