@@ -24,6 +24,7 @@
     background-color: #3f181c;
     position: sticky;
     top: 0px;
+    z-index: 1;
 
 }
 
@@ -276,23 +277,23 @@
     justify-content: space-around;
 }
 
-.menu-item1{
+.menu-item1 {
     width: 30%;
     height: 100%;
     position: relative;
 }
 
 
-.menu-item1 img{
+.menu-item1 img {
     height: 250px;
     width: 250px;
     position: absolute;
     top: 100px;
     left: 60px;
-    
+
 }
 
-.menu-item1 h6{
+.menu-item1 h6 {
     font-size: 22px;
     font-weight: 500;
     color: white;
@@ -302,7 +303,7 @@
     text-align: center;
 }
 
-.menu-item1 p{
+.menu-item1 p {
     color: white;
     position: absolute;
     top: 410px;
@@ -314,3 +315,97 @@
 
 
 /*Menu section ends*/
+
+/* Testmonails starts */
+
+.main {
+    width: 100%;
+    height: 700px;
+    background-color: white;
+}
+
+.testmonails-row-1 {
+    font-size: 47px;
+    display: flex;
+    color: #3f181c;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.testmonails-row-2 {
+
+    height: 10px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.line-yello {
+    height: 5px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: rgb(191, 137, 2)
+}
+
+.testmonails-row-3 {
+
+    width: 100%;
+    height: 400px;
+    margin-top: 90px;
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+
+.restmonails-box-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+
+    width: 295px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+
+.restmonails-box-image img {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.restmonails-box-img  p{ 
+
+    text-align: center;
+    width: 100%;
+}
+.testmonails-row-4 {
+    margin-top: 100px;
+    width: 100%;
+
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.doit {
+
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(191, 137, 2);
+}
+
+
+/*Testmonails ends*/
